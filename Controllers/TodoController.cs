@@ -8,7 +8,6 @@ namespace SwaggerTest.Controllers
     [Route("api/[controller]")]
     public class TodoController : ControllerBase
     {
-
         
         [HttpPost("Create")]
         [SwaggerOperation(Summary = "Creates a new Todo item")]

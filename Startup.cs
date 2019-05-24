@@ -29,6 +29,8 @@ namespace SwaggerTest
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            //Additional Example Options - Refer https://github.com/mattfrear/Swashbuckle.AspNetCore.Filters#request-example
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "My API", Description = "A simple example ASP.NET Core Web API" });
